@@ -1,0 +1,1 @@
+CREATE TABLE ulogin (id INT AUTO_INCREMENT, ident TEXT, id_user int,seed int unsigned,PRIMARY KEY(id));
