@@ -29,4 +29,4 @@ uLogin — это инструмент, который позволяет пол
 	Вставить следующий код сразу после окончания тега </form>(по умолчанию 60 строка)
 
 <script src=http://ulogin.ru/js/ulogin.js></script>
-<div id=uLogin x-ulogin-params=display=small&fields=first_name,last_name,photo&providers=vkontakte,odnoklassniki,mailru,facebook&hidden=twitter,google,yandex,livejournal,openid&redirect_uri=http%3A%2F%2F".$_SERVER['HTTP_HOST']."%2Fnetcat%2Fmodules%2Fulogiplugin%2F ></div>
+<div id=uLogin x-ulogin-params=display=small&fields=first_name,last_name,photo&providers=vkontakte,odnoklassniki,mailru,facebook&hidden=other&redirect_uri=http%3A%2F%2F".$_SERVER['HTTP_HOST']."%2Fnetcat%2Fmodules%2Fulogiplugin%2F ></div>
